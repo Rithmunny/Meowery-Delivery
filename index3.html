@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff5f5f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    background-color: #ff5f5f;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+}
+
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.restaurant-card h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.restaurant-card p {
+    margin-bottom: 5px;
+}
+
+.restaurant-card .rating {
+    color: #ff5f5f;
+    font-weight: bold;
+}
+
+.restaurant-card .delivery-time {
+    color: #666;
+}
+
+.restaurant-card .order-button {
+    background-color: #ff5f5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+#mylogo{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meowery Delivery</h1>
+        <img src="image/Meowery-logo.png" id="mylogo">
+    </header>
+
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div id="content">
+        <div class="restaurant-card">
+            <h2>Pizz Hut</h2>
+            <img src="image/Pizza Hut.png" alt="Logo" class="logo">
+            <p>Rating: <span class="rating">4.5</span></p>
+            <p>Delivery Time: <span class="delivery-time">30 minutes</span></p>
+            <p>Food: <span class="food">Pizza</span></p>
+            <p>Drink: <span class="drink">Coke</span></p>
+            <button class="order-button">Order Now</button>
+        </div>
+
+        <div class="restaurant-card">
+            <h2>Carl's JR</h2>
+            <img src="image/Carl's JR.png" alt="Logo" class="logo">
+            <p>Rating: <span class="rating">4.2</span></p>
+            <p>Delivery Time: <span class="delivery-time">45 minutes</span></p>
+            <p>Food: <span class="food">Burger</span></p>
+            <p>Drink: <span class="drink">Milkshake</span></p>
+            <button class="order-button">Order Now</button>
+        </div>
+
+        <div class="restaurant-card">
+            <h2>Sushi Lab</h2>
+            <img src="image/Sushi Lab.png" alt="Logo" class="logo">
+            <p>Rating: <span class="rating">4.8</span></p>
+            <p>Delivery Time: <span class="delivery-time">20 minutes</span></p>
+            <p>Food: <span class="food">Sushi</span></p>
+            <p>Drink: <span class="drink">Green Tea</span></p>
+            <button class="order-button">Order Now</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        &copy; 2022 Food Delivery Application. All rights reserved.
+    </footer>
+</body>
+</html>
